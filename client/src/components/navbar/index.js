@@ -19,7 +19,7 @@ function Navbar() {
                         <Link
                             to="/saved"
                             className={window.location.pathname === "/saved" ? "nav-link active" : "nav-link"}
-                        > saved</Link>
+                        > Saved</Link>
                     </li>
                 </ul>
             </div>
