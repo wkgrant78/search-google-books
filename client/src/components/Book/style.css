@@ -1,0 +1,29 @@
+.btn-container {
+    float: left;
+}
+
+.btn {
+    font-size: larger;
+}
+
+p {
+    text-align: left;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.author {
+    color: #17a2b8;
+}
+
+#space {
+    margin-right: 10px;
+}
+
+@media (max-width: 767px) {
+    .btn-container {
+        margin-bottom: 15px;
+    }
+}
