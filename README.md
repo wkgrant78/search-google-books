@@ -1,4 +1,4 @@
-# Search for Your Next Book
+# Happy Reading with Google Books
 
 
 ### PROJECT DESCRIPTION:
@@ -6,13 +6,13 @@ Create a new React-based Google Books Search app. This assignment requires you t
 
 ### ACCEPTANCE CRITERIA/REQUIREMENTS:
 * Application should: 
-    * Allow user to search for books and save the ones they like using the Google book api (https://www.googleapis.com/books/v1/volumes?q=)
+    * Allow user to search for books, save the ones they like, and links for purchase options using the Google Book Api (https://developers.google.com/books)
     * The search results should return:
-        - `title - Title of the book from the Google Books API
-        - `authors - The books's author(s) as returned from the Google Books API
-        - `description - The book's description as returned from the Google Books API
-        - `image - The Book's thumbnail image as returned from the Google Books API
-        - `link - The Book's information link as returned from the Google Books API
+        - `title` - Title of the book from the Google Books API
+        - `authors` - The book's author(s) as returned from the Google Books API
+        - `description` - The book's description as returned from the Google Books API
+        - `image` - The Book's thumbnail image as returned from the Google Books API
+        - `link` - The Book's information link as returned from the Google Books API
 
 ### DEVELOPMENT PLAN:
 * Create repo and install required packages
@@ -20,22 +20,23 @@ Create a new React-based Google Books Search app. This assignment requires you t
 * 
 * Create component files, update App.js and Index.js
 * Create a MongoDB Atlas collection and connect to database
-* Create manifest, database and service worker files
-* 
+* Create app folders
+* Create seed/db, service worker, routes, models, controller files
 * 
 * Check functionality
 * Create db in Mongo and link to Heroku
 * Deploy app
 
 ### COMMITS:
-* Initial commit with 'create-react-app client' folders/files and package installs
+* Initial commit with `create-react-app client` folders/files and package installs
+* Created component files
 * 
 
 
 
 ### Demo:
 
-#### Employee Directory 
+#### Happy Reading with Google Books
 
 ![](searchGoogleBooks.gif)
 
